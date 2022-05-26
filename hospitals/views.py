@@ -4,7 +4,7 @@ from django.contrib.auth import authenticate,logout,login
 from .models import *
 from datetime import date
 
-# Create your views here.
+
 
 def About(request):
     return render(request,'about.html')
